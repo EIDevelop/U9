@@ -1,0 +1,8 @@
+<Solution>
+  <SourceControl>
+  </SourceControl>
+  <ItemGroup>
+    <Item id="a25b9e9b-f055-45b2-b196-c3cefaea32d6" include="MyTestBE\MyTestBE.ubfmlproj" />
+  </ItemGroup>
+  <ServiceGroupInfo id="eb89f26e-6051-4978-8e21-89f8abf94bf5" name="MyTest" displayName="MyTest" description="" help="" fullPath="D:\Yonyou\MyTestProject\Model\MyTest\MyTest.sg" applicationID="" />
+</Solution>

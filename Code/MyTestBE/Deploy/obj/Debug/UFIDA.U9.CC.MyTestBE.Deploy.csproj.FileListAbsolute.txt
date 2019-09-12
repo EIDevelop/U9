@@ -1,0 +1,16 @@
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.CC.MyTestBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.CC.MyTestBE.Deploy.pdb
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.Base.BaseBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.CBO.PubBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.UBF.MD.Entity.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFSoft.UBF.ExportService.PrintReferenceBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.Lot.LotBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.Base.BaseBE.Deploy.xml
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.U9.CBO.PubBE.Deploy.xml
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFIDA.UBF.MD.Entity.Deploy.xml
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\bin\Debug\UFSoft.UBF.ExportService.PrintReferenceBE.Deploy.xml
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\obj\Debug\UFIDA.U9.CC.MyTestBE.Deploy.csprojResolveAssemblyReference.cache
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\obj\Debug\UFIDA.U9.CC.MyTestBE.Resource.resources
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\obj\Debug\UFIDA.U9.CC.MyTestBE.Deploy.csproj.GenerateResource.Cache
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\obj\Debug\UFIDA.U9.CC.MyTestBE.Deploy.dll
+D:\Yonyou\MyTestProject\Code\MyTestBE\Deploy\obj\Debug\UFIDA.U9.CC.MyTestBE.Deploy.pdb

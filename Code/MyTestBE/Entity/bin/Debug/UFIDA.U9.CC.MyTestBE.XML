@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.CC.MyTestBE</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer">
+            <summary>
+            实体: 客户信息
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnSetDefaultValue">
+            <summary>
+            设置默认值
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnInserting">
+            <summary>
+            before Insert
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnInserted">
+            <summary>
+            after Insert
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnUpdating">
+            <summary>
+            before Update
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnUpdated">
+            <summary>
+            after Update
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnDeleting">
+            <summary>
+            before Delete
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnDeleted">
+            <summary>
+            after Delete
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.OnValidate">
+            <summary>
+            on Validate
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.CreateDefaultComponent_Extend">
+            <summary>
+            Create DefaultComponent
+            </summary>
+            <returns>DefaultComponent Instance</returns>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.Create">
+            <summary>
+            Create Instance
+            </summary>
+            <returns>Instance</returns>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            use for Serialization
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.CreateDefault">
+            <summary>
+            Create Instance
+            </summary>
+            <returns>Default Instance</returns>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.CreateDefaultComponent">
+            <summary>
+            Create DefaultComponent
+            </summary>
+            <returns>DefaultComponent Instance</returns>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.FromEntityData(UFIDA.U9.CC.CustomerBE.CustomerData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.ToEntityData(UFIDA.U9.CC.CustomerBE.CustomerData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Key">
+            <summary>
+            Strong Class EntityKey Property
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Finder">
+            <summary>
+            Finder
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.OriginalData">
+            <summary>
+            当前实体对象的旧数据对象(为上次更新后的数据)
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.ID">
+            <summary>
+            ID (该属性不可为空,且无默认值)
+            客户信息.Key.ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.CreatedOn">
+            <summary>
+            创建时间 (该属性可为空,且无默认值)
+            客户信息.Sys.创建时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.CreatedBy">
+            <summary>
+            创建人 (该属性可为空,且无默认值)
+            客户信息.Sys.创建人
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.ModifiedOn">
+            <summary>
+            修改时间 (该属性可为空,且无默认值)
+            客户信息.Sys.修改时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.ModifiedBy">
+            <summary>
+            修改人 (该属性可为空,且无默认值)
+            客户信息.Sys.修改人
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.SysVersion">
+            <summary>
+            事务版本 (该属性可为空,但有默认值)
+            客户信息.Sys.事务版本
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Code">
+            <summary>
+            编码 (该属性不可为空,且无默认值)
+            客户信息.Misc.编码
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Name">
+            <summary>
+            名称 (该属性可为空,且无默认值)
+            客户信息.Misc.名称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.ShortName">
+            <summary>
+            简称 (该属性可为空,且无默认值)
+            客户信息.Misc.简称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Memo">
+            <summary>
+            备注 (该属性可为空,且无默认值)
+            客户信息.Misc.备注
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Currency">
+            <summary>
+            币种 (该属性可为空,且无默认值)
+            客户信息.Misc.币种
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.CurrencyKey">
+            <summary>
+            币种 的Key (该属性可为空,且无默认值)
+            客户信息.Misc.币种
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Effective">
+            <summary>
+            有效性 (该属性可为空,且无默认值)
+            客户信息.Misc.有效性
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Org">
+            <summary>
+            组织 (该属性不可为空,且无默认值)
+            客户信息.Misc.组织
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.OrgKey">
+            <summary>
+            组织 的Key (该属性不可为空,且无默认值)
+            客户信息.Misc.组织
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_EntityName">
+            <summary>
+            Entity的显示名称资源-请使用EntityRes.GetResource(EntityRes.BE_FullName)的方式取 Entity的显示名称资源.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_EntityNameS">
+            <summary>
+            Entity的显示名称资源-请使用EntityRes.GetResource(EntityRes.BE_FullName)的方式取 Entity的显示名称资源.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_ID">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ID")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_CreatedOn">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("CreatedOn")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_CreatedBy">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("CreatedBy")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_ModifiedOn">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ModifiedOn")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_ModifiedBy">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ModifiedBy")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_SysVersion">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("SysVersion")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Code">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Code")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Name">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Name")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_ShortName">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ShortName")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Memo">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Memo")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Currency">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Currency")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Effective">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Effective")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.Res_Org">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("Org")的方式取资源
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer.EntityKey">
+            <summary>
+            Strong Class Customer EntityKey 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityKey.GetEntity">
+            <summary>
+            得到当前Key所对应的Entity．(Session级有缓存,性能不用考虑．)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder">
+            <summary>
+            Strong Class EntityFinder
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.FindByBusinessKey(System.String,UFIDA.U9.Base.Organization.Organization.EntityKey)">
+            <summary>
+            通过实体设置的业务主键进行查询 -业务主键展开方式,会受业务主键调整影响接口.建议使用另一参数类型对象接口查询．
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.FindByBusinessKey(System.String,UFIDA.U9.Base.Organization.Organization)">
+            <summary>
+            通过实体设置的业务主键进行查询 -业务主键展开方式,会受业务主键调整影响接口.建议使用另一参数类型对象接口查询．
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.FindByBusinessKey(UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.BusinessKeyParameter)">
+            <summary>
+            通过实体设置的业务主键进行查询－建议使用.
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.FindByUFIDAU9CCCustomerBEBizEntityBusinessKeyIndex(UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.UFIDAU9CCCustomerBEBizEntityBusinessKeyIndexParameter)">
+            <summary>
+            通过索引UFIDA_U9_CC_CustomerBE_BizEntity_BusinessKey_Index进行查询(参数对象接口)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.BusinessKeyParameter">
+            <summary>
+            业务主键查询参数类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer.EntityFinder.UFIDAU9CCCustomerBEBizEntityBusinessKeyIndexParameter">
+            <summary>
+            UFIDA_U9_CC_CustomerBE_BizEntity_BusinessKey_Index索引查询参数类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.CC.CustomerBE.Customer.EntityList">
+            <summary>
+            EntityList
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityList.#ctor">
+            <summary>
+            EntityList 无参的构造方法,用于其它特殊情况
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityList.#ctor(System.Collections.IList)">
+            <summary>
+            EntityList Constructor With Collection .主要用于查询返回实体集时使用.
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityList.#ctor(System.String,UFSoft.UBF.Business.BusinessEntity,System.String,System.Collections.IList)">
+            <summary>
+             EntityList Constructor , used by  peresidence
+            </summary>
+            <param name="childAttrName">this EntityList's child Attribute Name</param>
+            <param name="parentEntity">this EntityList's Parent Entity </param>
+            <param name="parentAttrName">Parent Entity's Attribute Name with this EntityList's </param>
+            <param name="list">list </param>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.ID">
+            <summary>
+             OrginalData属性。只可读。
+            ID (该属性不可为空,且无默认值)
+            客户信息.Key.ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.CreatedOn">
+            <summary>
+             OrginalData属性。只可读。
+            创建时间 (该属性可为空,且无默认值)
+            客户信息.Sys.创建时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.CreatedBy">
+            <summary>
+             OrginalData属性。只可读。
+            创建人 (该属性可为空,且无默认值)
+            客户信息.Sys.创建人
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.ModifiedOn">
+            <summary>
+             OrginalData属性。只可读。
+            修改时间 (该属性可为空,且无默认值)
+            客户信息.Sys.修改时间
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.ModifiedBy">
+            <summary>
+             OrginalData属性。只可读。
+            修改人 (该属性可为空,且无默认值)
+            客户信息.Sys.修改人
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.SysVersion">
+            <summary>
+             OrginalData属性。只可读。
+            事务版本 (该属性可为空,但有默认值)
+            客户信息.Sys.事务版本
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Code">
+            <summary>
+             OrginalData属性。只可读。
+            编码 (该属性不可为空,且无默认值)
+            客户信息.Misc.编码
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Name">
+            <summary>
+             OrginalData属性。只可读。
+            名称 (该属性可为空,且无默认值)
+            客户信息.Misc.名称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.ShortName">
+            <summary>
+             OrginalData属性。只可读。
+            简称 (该属性可为空,且无默认值)
+            客户信息.Misc.简称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Memo">
+            <summary>
+             OrginalData属性。只可读。
+            备注 (该属性可为空,且无默认值)
+            客户信息.Misc.备注
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Currency">
+            <summary>
+             OrginalData属性。只可读。
+            币种 (该属性可为空,且无默认值)
+            客户信息.Misc.币种
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.CurrencyKey">
+            <summary>
+            EntityKey 属性
+            币种 的Key (该属性可为空,且无默认值)
+            客户信息.Misc.币种
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Effective">
+            <summary>
+             OrginalData属性。只可读。
+            有效性 (该属性可为空,且无默认值)
+            客户信息.Misc.有效性
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.Org">
+            <summary>
+             OrginalData属性。只可读。
+            组织 (该属性不可为空,且无默认值)
+            客户信息.Misc.组织
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityOriginal.OrgKey">
+            <summary>
+            EntityKey 属性
+            组织 的Key (该属性不可为空,且无默认值)
+            客户信息.Misc.组织
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.GetResource(System.String)">
+            <summary>
+            获取显示名称资源方法
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.BE_Name">
+            <summary>
+            EntityName的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.BE_FullName">
+            <summary>
+            Entity　的全名. 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.ID">
+            <summary>
+            属性: ID 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.CreatedOn">
+            <summary>
+            属性: 创建时间 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.CreatedBy">
+            <summary>
+            属性: 创建人 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.ModifiedOn">
+            <summary>
+            属性: 修改时间 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.ModifiedBy">
+            <summary>
+            属性: 修改人 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.SysVersion">
+            <summary>
+            属性: 事务版本 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Code">
+            <summary>
+            属性: 编码 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Name">
+            <summary>
+            属性: 名称 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.ShortName">
+            <summary>
+            属性: 简称 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Memo">
+            <summary>
+            属性: 备注 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Currency">
+            <summary>
+            属性: 币种 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Effective">
+            <summary>
+            属性类型属性: Effective 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Effective_TypeFullName">
+            <summary>
+            属性类型属性: Effective 的类型全名
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Effective_IsEffective">
+            <summary>
+            属性类型属性展开:Effective.IsEffective的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Effective_EffectiveDate">
+            <summary>
+            属性类型属性展开:Effective.EffectiveDate的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Effective_DisableDate">
+            <summary>
+            属性类型属性展开:Effective.DisableDate的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.CC.CustomerBE.Customer.EntityRes.Org">
+            <summary>
+            属性: 组织 的名称
+            </summary>
+        </member>
+    </members>
+</doc>

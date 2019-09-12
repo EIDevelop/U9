@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceGroup>
+  <ServiceGroupInfo id="eb89f26e-6051-4978-8e21-89f8abf94bf5" name="MyTest" displayName="MyTest" description="" help="" fullPath="D:\Yonyou\MyTestProject\Model\MyTest\MyTest.sg" applicationID="" />
+  <AssemblyGroup>
+    <Assembly ID="d9da6b6e-a1b2-4562-b34f-bea56c069ad3" name="UFIDA.U9.CC.MyTestBE" type="BE" path="" />
+  </AssemblyGroup>
+</ServiceGroup>
